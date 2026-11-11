@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SQL MASTERY LAB</title>
+<meta name="description" content="ブラウザの中で動くPostgreSQLに実際にSQLを書いて学べる無料の学習サイト。SELECTの基礎から実務のDB移行（調査・移行SQL・検証・障害対応）まで。登録不要。">
+<meta property="og:title" content="SQL MASTERY LAB">
+<meta property="og:description" content="基礎から実務のDB移行まで学べるSQL実践ラボ。ブラウザだけで本物のPostgreSQLを使って練習できます。登録不要・無料。">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1d5c8a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231d5c8a'/%3E%3Cellipse cx='16' cy='9' rx='9' ry='3.5' fill='none' stroke='white' stroke-width='2'/%3E%3Cpath d='M7 9v14c0 2 4 3.5 9 3.5s9-1.5 9-3.5V9M7 16c0 2 4 3.5 9 3.5s9-1.5 9-3.5' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+JP:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <button class="btn ghost menu-btn" id="menu-btn" aria-label="メニューを開く">☰</button>
+    <a class="brand" href="#dashboard" style="text-decoration:none;color:inherit">
+      <b>SQL MASTERY LAB</b>
+      <span>基礎から実務のDB移行まで学べるSQL実践ラボ</span>
+    </a>
+    <span class="spacer"></span>
+    <span class="engine-pill" id="engine-pill" data-state="loading" role="status"><i></i><span>SQLエンジン準備中…</span></span>
+  </header>
+  <nav class="sidenav" id="sidenav" aria-label="カリキュラムと進捗"></nav>
+  <main class="main" id="main" tabindex="-1"></main>
+</div>
+<noscript>このアプリはJavaScriptが必要です。</noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

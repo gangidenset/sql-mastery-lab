@@ -1,0 +1,12 @@
+{
+  "name": "sql-mastery-lab",
+  "version": "1.0.0",
+  "description": "SQL MASTERY LAB - 基礎から実務のDB移行まで学べるSQL実践ラボ",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node tools/server.mjs",
+    "test": "node tests/content.test.mjs",
+    "test:e2e": "node tests/e2e.test.mjs"
+  }
+}
